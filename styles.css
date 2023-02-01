@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gelborange: #ff9900;
+    --hellgelb: #ffd900;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-image-border-orange {
+    border-color: var(--gelborange);
+}
+
+.card-image-border-yellow {
+    border-color: var(--hellgelb);
+}
+
+.btn-yellow,
+.btn-orange {
+    transition: color 0.3s, background-color 0.3s, transform 0.3s ease-in;
+}
+
+.btn-yellow {
+    background-color: var(--hellgelb);
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    background-color: #ffed00;
+    color: #8f8f8f;
+    transform: scale(1.1);
+}
+
+.btn-orange {
+    background-color: var(--gelborange);
+    color: #fff;
+}
+
+.btn-orange:hover,
+.btn-orange:focus {
+    background-color: #ffb300;
+    color: #efefef;
+    transform: scale(1.1);
+}

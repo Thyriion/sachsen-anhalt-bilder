@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sachsen-Anhalt-Bilder</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link href="./dist/output.css" rel="stylesheet" />
+    </head>
+    <body class="text-center mx-5 my-16">
+        <section class="introduction mx-auto mb-10">
+            <h1 class="text-3xl font-bold">
+                Willkommen auf www.sachsen-anhalt-bilder.de!
+            </h1>
+            <p class="mt-10 max-w-lg mx-auto text-gray-500">
+                Sie suchen eindrucksvolle Bilder von Sachsen-Anhalt? Wir halten
+                für Sie mehrere tausend hochauflösende Bilmotive in derzeit zwei
+                Bild- und Mediendatenbanken bereit.
+            </p>
+            <p class="my-5">Wählen sie aus zwischen:</p>
+        </section>
+        <section
+            class="cards grid grid-cols-1 max-w-5xl gap-14 justify-center md:grid-cols-2 lg:mx-auto lg:gap-28 grid-flow-row auto-rows-row"
+        >
+            <div
+                class="card text-center rounded-lg border-2 overflow-hidden w-full"
+            >
+                <img
+                    src="./img/reiseland.jpg"
+                    alt="Landschaft am Abend"
+                    class="border-b-8 card-image-border-orange w-full"
+                />
+                <div class="description px-10 text-center h-full">
+                    <h3 class="font-bold py-3">Reiseland</h3>
+                    <p class="h-fit md:h-52 lg:h-40">
+                        Entdecken Sie die Schönheit von Sachsen-Anhalt durch
+                        unsere atemberaubende Fotosammlung. Vom
+                        mittelalterlichen Charme Quedlinburgs bis zu den
+                        malerischen Landschaften des Harzes fangen unsere Bilder
+                        die Essen dieses unterschätzten Reiseziels ein.
+                    </p>
+                    <button
+                        type="button"
+                        class="m-5 px-2 py-3 rounded-xl btn-orange"
+                    >
+                        Fotos entdecken
+                    </button>
+                </div>
+            </div>
+
+            <div class="card rounded-lg border-2 overflow-hidden w-full">
+                <img
+                    src="./img/wirtschaftsstandort.jpg"
+                    alt="Arbeitender Ingenieur"
+                    class="border-b-8 card-image-border-yellow w-full"
+                />
+                <div class="description px-10 text-center">
+                    <h3 class="font-bold py-3">Wirtschaftsstandort</h3>
+                    <p class="h-fit md:h-52 lg:h-40">
+                        Entdecken Sie die verborgenen Schätze Sachsen-Anhalts
+                        durch unsere exklusive Fotosammlung. Lassen Sie sich von
+                        der Vielfalt überwältigen, sowie dem Standortpotenzial.
+                        Sachsen-Anhalt befindet sich auf einem aufsteigendem Ast
+                        im Sektor Wirtschaft.
+                    </p>
+                    <button
+                        type="button"
+                        class="m-5 px-2 py-3 rounded-xl btn-yellow"
+                    >
+                        Fotos entdecken
+                    </button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
