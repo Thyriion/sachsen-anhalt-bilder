@@ -7,6 +7,24 @@
     --hellgelb: #ffd900;
 }
 
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: local('OpenSans-Regular')
+        url('./assets/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: local('OpenSans-Bold') url('./assets/fonts/OpenSans/OpenSans-Bold.ttf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: local('OpenSans-Light')
+        url('./assets/fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
