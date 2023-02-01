@@ -9,4 +9,4 @@ Da die Seite ein One-Pager ist wurde sich für Plain-HTML in Kombination mit Tai
 ### Zum Erstellen der CSS
 
 Damit das Projekt mit Tailwind läuft muss folgender Befehl ausgeführt werden:
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./styles.css -o ./dist/output.css --watch
